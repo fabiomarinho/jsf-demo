@@ -40,14 +40,20 @@
       <scope>test</scope>
     </dependency>
     <!-- O Wildfly já possui a implementação do Jakarta que possui entre outras coisas,
-    implementação da API JSF. i.e. javax.faces.view.* -->    
+    implementação da API JSF. i.e. javax.faces.view.* 
+    Entretanto a versão não é gerenciada ??
+    -->    
     <dependency>
 		<groupId>org.jboss.spec</groupId>
 		<artifactId>jboss-jakartaee-all-8.0</artifactId>
 		<version>1.0.0.Final</version>
 		<scope>provided</scope>
 	</dependency>
-	
+	<dependency>
+	    <groupId>org.primefaces</groupId>
+	    <artifactId>primefaces</artifactId>
+	    <version>7.0</version>
+	</dependency>
 	<!-- Dependência necessária para as classes javax.inject.* -->
 	<dependency>
 	  <groupId>org.wildfly.plugins</groupId>
