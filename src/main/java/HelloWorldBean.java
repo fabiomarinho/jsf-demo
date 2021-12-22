@@ -17,5 +17,4 @@ public class HelloWorldBean implements Serializable {
 	public String getMessage() {
 	  return "Hello World : " + new Date().toString();
    }
-
 }
