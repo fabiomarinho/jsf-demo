@@ -8,7 +8,12 @@ import javax.faces.view.ViewScoped;
 @ViewScoped
 public class HelloWorldBean implements Serializable {
 
-   public String getMessage() {
+   /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	public String getMessage() {
       return "Hello World from Fuertefentura: " + new Date().toString();
    }
 
